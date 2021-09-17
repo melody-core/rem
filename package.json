@@ -1,0 +1,87 @@
+{
+  "name": "rem",
+  "description": "rem components",
+  "version": "0.0.0",
+  "license": "MIT",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "jsnext:main": "dist/index.es.js",
+  "sideEffects": [
+    "*.css"
+  ],
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "prepare": "yarn run build",
+    "lint": "eslint .",
+    "test": "jest .",
+    "test:watch": "jest --watch",
+    "storybook": "start-storybook -p 6006 --ci",
+    "build:storybook": "build-storybook -o public/"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@rollup/plugin-commonjs": "^11.1.0",
+    "@rollup/plugin-node-resolve": "^7.1.2",
+    "@rollup/plugin-url": "^4.0.2",
+    "@svgr/rollup": "^5.3.1",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.2",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint": "^6.8.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.4",
+    "pretty-quick": "^2.0.1",
+    "react-dom": "^16.13.1",
+    "react": "^16.13.1",
+    "rollup-plugin-auto-external": "^2.0.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-postcss": "^2.5.0",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup": "^2.6.0",
+    "@testing-library/react": "^10.0.2",
+    "@types/jest": "^25.2.1",
+    "babel-jest": "^25.3.0",
+    "jest": "^25.3.0",
+    "@storybook/addon-a11y": "^5.3.18",
+    "@storybook/addon-actions": "^5.3.18",
+    "@storybook/addon-links": "^5.3.18",
+    "@storybook/addon-storysource": "^5.3.18",
+    "@storybook/addon-viewport": "^5.3.18",
+    "@storybook/addons": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@storybook/preset-create-react-app": "^2.1.1",
+    "storybook-readme": "^5.0.8",
+    "babel-loader": "^8.1.0",
+    "react-scripts": "^3.4.1"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "semi": true,
+    "singleQuote": true
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
