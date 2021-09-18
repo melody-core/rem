@@ -1,0 +1,10 @@
+node_modules/
+build/
+dist/
+**/*.min.js
+**/*-min.js
+**/*.bundle.js
+packages/*/build/
+packages/*/node_modules/
+packages/*/dist/
+tsconfig.json

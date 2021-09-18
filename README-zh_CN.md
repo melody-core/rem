@@ -8,19 +8,10 @@ react 移动端组件库!
 ```shell
 # 根项目路径下
 # 安装依赖
-yarn 
+yarn
+# cd [packages/package]
+cd packages/rem
 # port 6006
 npm run storybook 
 ```
-## 其他命令
-
-```shell
-    "build": "rollup -c",
-    "start": "rollup -c -w",
-    "prepare": "yarn run build",
-    "lint": "eslint .",
-    "test": "jest .",
-    "test:watch": "jest --watch",
-    "storybook": "start-storybook -p 6006 --ci",
-    "build:storybook": "build-storybook -o public/"
-```
+## 其他
