@@ -1,0 +1,17 @@
+{
+  "name": "rem-repo",
+  "version": "1.0.0",
+  "description": "最好的react-mobile-UI库!",
+  "scripts": {
+    "build": "yarn workspaces run build",
+    "info": "yarn workspaces info"
+  },
+  "private": true,
+  "devDependencies": { 
+    "lerna": "^4.0.0"
+  },
+  "workspaces": ["packages/*"],
+  "publishConfig": {
+    "access": "public"
+  }
+}

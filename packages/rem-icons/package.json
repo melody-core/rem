@@ -1,0 +1,12 @@
+{
+  "name": "@melody-core/rem-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo rem-icons"
+  },
+  "author": "melody-core",
+  "license": "ISC"
+}

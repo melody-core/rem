@@ -1,0 +1,13 @@
+.DS_Store
+node_modules/
+node_modules.tar
+*.log
+npm-debug.log*
+packages/*/lib
+packages/*/coverage
+packages/*/node_modules
+site/dist
+.vscode/
+.idea/
+logs/
+.history/
