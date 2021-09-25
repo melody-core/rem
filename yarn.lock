@@ -4486,19 +4486,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^3.0.0":
-  version "3.10.1"
-  resolved "https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-3.10.1.tgz?cache=0&sync_timestamp=1632333840782&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-3.10.1.tgz#7e061338a1383f59edc204c605899f93dc2e2c8f"
-  integrity sha1-fgYTOKE4P1ntwgTGBYmfk9wuLI8=
-  dependencies:
-    "@typescript-eslint/experimental-utils" "3.10.1"
-    debug "^4.1.1"
-    functional-red-black-tree "^1.0.1"
-    regexpp "^3.0.0"
-    semver "^7.3.2"
-    tsutils "^3.17.1"
-
-"@typescript-eslint/eslint-plugin@^4.11.0", "@typescript-eslint/eslint-plugin@^4.5.0":
+"@typescript-eslint/eslint-plugin@^3.0.0", "@typescript-eslint/eslint-plugin@^4.11.0", "@typescript-eslint/eslint-plugin@^4.31.1", "@typescript-eslint/eslint-plugin@^4.5.0":
   version "4.31.2"
   resolved "https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-4.31.2.tgz?cache=0&sync_timestamp=1632333840782&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-4.31.2.tgz#9f41efaee32cdab7ace94b15bd19b756dd099b0a"
   integrity sha1-n0HvruMs2res6UsVvRm3Vt0Jmwo=
@@ -6514,11 +6502,6 @@ clone@^1.0.2:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
-
-clone@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.nlark.com/clone/download/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
-  integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
 
 clsx@^1.1.1:
   version "1.1.1"
@@ -12410,32 +12393,6 @@ lerna@^4.0.0:
     import-local "^3.0.2"
     npmlog "^4.1.2"
 
-less-loader@^6.0.0:
-  version "6.2.0"
-  resolved "https://registry.nlark.com/less-loader/download/less-loader-6.2.0.tgz?cache=0&sync_timestamp=1625230515316&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fless-loader%2Fdownload%2Fless-loader-6.2.0.tgz#8b26f621c155b342eefc24f5bd6e9dc40c42a719"
-  integrity sha1-iyb2IcFVs0Lu/CT1vW6dxAxCpxk=
-  dependencies:
-    clone "^2.1.2"
-    less "^3.11.3"
-    loader-utils "^2.0.0"
-    schema-utils "^2.7.0"
-
-less@^3.11.3:
-  version "3.13.1"
-  resolved "https://registry.npm.taobao.org/less/download/less-3.13.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fless%2Fdownload%2Fless-3.13.1.tgz#0ebc91d2a0e9c0c6735b83d496b0ab0583077909"
-  integrity sha1-DryR0qDpwMZzW4PUlrCrBYMHeQk=
-  dependencies:
-    copy-anything "^2.0.1"
-    tslib "^1.10.0"
-  optionalDependencies:
-    errno "^0.1.1"
-    graceful-fs "^4.1.2"
-    image-size "~0.5.0"
-    make-dir "^2.1.0"
-    mime "^1.4.1"
-    native-request "^1.0.5"
-    source-map "~0.6.0"
-
 less@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npm.taobao.org/less/download/less-4.1.1.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fless%2Fdownload%2Fless-4.1.1.tgz#15bf253a9939791dc690888c3ff424f3e6c7edba"
@@ -13441,11 +13398,6 @@ nanomatch@^1.2.9:
     regex-not "^1.0.0"
     snapdragon "^0.8.1"
     to-regex "^3.0.1"
-
-native-request@^1.0.5:
-  version "1.1.0"
-  resolved "https://registry.nlark.com/native-request/download/native-request-1.1.0.tgz?cache=0&sync_timestamp=1630539957422&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnative-request%2Fdownload%2Fnative-request-1.1.0.tgz#acdb30fe2eefa3e1bc8c54b3a6852e9c5c0d3cb0"
-  integrity sha1-rNsw/i7vo+G8jFSzpoUunFwNPLA=
 
 native-url@^0.2.6:
   version "0.2.6"
