@@ -2,10 +2,10 @@ import React from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 
-import styles from './Button.module.css';
+import './Button.less';
 
 const Button = ({ className, ...rest }) => {
-  return <button className={classnames(styles.Button, className)} {...rest} />;
+  return <button className={classnames('Button', className)} {...rest} />;
 };
 
 Button.propTypes = {

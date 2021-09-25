@@ -35,7 +35,7 @@ export default {
     }),
     typescript(),
     babel({
-      exclude: 'node_modules/**',
+      exclude: /node_modules/,
       runtimeHelpers: true,
     }),
     external({
@@ -45,6 +45,12 @@ export default {
     commonjs(),
     postcss({
       plugins: [autoprefixer()],
+      use: {
+        sass: null,
+        stylus: null,
+        less: { javascriptEnabled: true }
+      }, 
+      modules: true,
       sourceMap: true,
       extract: true,
       minimize: true,

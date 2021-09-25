@@ -9,9 +9,8 @@ React mobile component library!
 # Under the root project path
 # Installation dependency
 yarn
-# cd [packages/package]
-cd packages/rem
-# port 6006
-npm run storybook 
+# run --- port 6006
+yarn docs
 ```
 ## others
+Development instructions - https://www.yuque.com/sff4rc/mhz4lv/zgusag

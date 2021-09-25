@@ -7,7 +7,8 @@
     "info": "yarn workspaces info",
     "lint:fix": "eslint ./ --fix",
     "f2elint-scan": "f2elint scan",
-    "f2elint-fix": "f2elint fix"
+    "f2elint-fix": "f2elint fix",
+    "docs": "yarn workspace @melody-core/rem run storybook"
   },
   "private": true,
   "devDependencies": { 

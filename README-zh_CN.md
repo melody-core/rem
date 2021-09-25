@@ -9,9 +9,8 @@ react 移动端组件库!
 # 根项目路径下
 # 安装依赖
 yarn
-# cd [packages/package]
-cd packages/rem
-# port 6006
-npm run storybook 
+# 运行 - 端口 6006
+yarn docs
 ```
 ## 其他
+开发须知 - https://www.yuque.com/sff4rc/mhz4lv/zgusag
