@@ -15,6 +15,7 @@ module.exports = {
     '@storybook/addon-links',
     '@storybook/addon-viewport',
     '@storybook/addon-a11y',
+    '@storybook/addon-jest',
     '@storybook/addon-storysource',
   ],
 };

@@ -12,9 +12,8 @@ export default {
   decorators: [withReadme(README)],
 };
 
-export const basic = () => (
-  <Button onClick={action('clicked')}>Hello Button</Button>
-);
+
+export const basic = () => <Button onClick={action('clicked')}>Hello Button</Button>;
 
 export const passingChildren = () => (
   <Button onClick={action('clicked')}>
