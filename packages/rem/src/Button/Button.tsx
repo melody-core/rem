@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { FC } from 'react';
 import classnames from 'classnames';
 import PropTypes from 'prop-types';
 
 import './Button.scss';
 
-const Button = ({ className, ...rest }) => {
+const Button: FC<Record<any, any>> = ({ className, ...rest }) => {
   return <button className={classnames('button', className)} {...rest} />;
 };
 
