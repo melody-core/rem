@@ -16,10 +16,10 @@ const program = new Command();
 
 class Main {
   async check() {
-    console.log(chalk.blueBright('👩‍🎤拉姆为您效劳~'));
+    console.log(chalk.blueBright('👩‍🎤 拉姆为您效劳(*☻-☻*)'));
     const targetProSrcPath = process.cwd();
     if (!pathReg.test(targetProSrcPath)) {
-      console.log(chalk.yellow('👩‍🎤拉姆拉姆提示您: 请在组件项目的src目录下运行ram命令~'));
+      console.log(chalk.yellow('👩‍🎤 拉姆拉姆提示您: 请在组件项目的src目录下运行ram命令！'));
       process.exit();
     }
     const inputres = await inquirer.prompt([
@@ -31,15 +31,15 @@ class Main {
       },
     ]);
     if (!inputres.ComponentName || !nameReg.test(inputres.ComponentName)) {
-      console.log(chalk.yellow('👩‍🎤拉姆拉姆提示您: 组件名必须是大驼峰语法的英文单词组合~'));
+      console.log(chalk.yellow('👩‍🎤 拉姆拉姆提示您: 组件名必须是大驼峰语法的英文单词组合！'));
       process.exit();
     }
     const cuDirs =  await fs.promises.readdir(targetProSrcPath);
     if(cuDirs.indexOf(inputres.ComponentName) > -1){
-      console.log(chalk.yellow('👩‍🎤拉姆拉姆提示您: 已经存在此组件目录，不允许覆盖哦~'));
+      console.log(chalk.yellow('👩‍🎤 拉姆拉姆提示您: 已经存在此组件目录，不允许覆盖！'));
       process.exit();
     }
-    const spinit = ora('👩‍🎤拉姆拉姆工作中~');
+    const spinit = ora('👩‍🎤 拉姆拉姆工作中~');
     console.log('\n');
     spinit.start();
     try {
@@ -58,11 +58,11 @@ class Main {
       });
     } catch (error) {
       console.error(error);
-      console.log(chalk.yellow('👩‍🎤拉姆拉姆提示您: 组件初始化失败了，您可能要在此命令前加sudo~'));
+      console.log(chalk.yellow('👩‍🎤 拉姆拉姆提示您: 组件初始化失败了，您可能要在此命令前加sudo~'));
       spinit.stop();
       process.exit();
     }
-    console.log(chalk.blueBright('👩‍🎤拉姆拉姆提示您: 组件初始化成功啦，请在此之上开发吧~'));
+    console.log(chalk.blueBright('👩‍🎤 拉姆拉姆提示您: 组件初始化成功啦，请在此之上开发吧~'));
     spinit.stop();
   }
   start() {

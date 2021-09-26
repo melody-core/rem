@@ -1,7 +1,7 @@
 {
     "name": "@melody-core/ram",
-    "version": "1.0.0",
-    "description": "拉姆，快速生成组件",
+    "version": "1.0.4",
+    "description": "👩‍🎤 拉姆，组件开发小助手!",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,6 +10,12 @@
     "bin": {
         "ram": "./index.js"
     },
+    "keywords": [
+        "rem",
+        "ram",
+        "component",
+        "cli"
+    ],
     "license": "ISC",
     "dependencies": {
         "chalk": "^4.1.2",
