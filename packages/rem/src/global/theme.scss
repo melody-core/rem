@@ -1,0 +1,21 @@
+:root {
+    --rem-color-primary: #1677ff;
+    --rem-color-success: #00b578;
+    --rem-color-warning: #ff8f1f;
+    --rem-color-danger: #ff3141;
+    --rem-color-white: #fff;
+    --rem-color-weak: #999;
+    --rem-color-light: #ccc;
+    --rem-border-color: #eee;
+    --rem-font-size-main: 13px;
+    --rem-color-text: #333;
+  
+    --rem-font-family: -apple-system, blinkmacsystemfont, 'Helvetica Neue',
+      helvetica, segoe ui, arial, roboto, 'PingFang SC', 'miui',
+      'Hiragino Sans GB', 'Microsoft Yahei', sans-serif;
+  
+    --rem-z-index-mask: 1000;
+    --rem-z-index-popup: 1000;
+    --rem-z-index-popover: 1030;
+    --rem-z-index-floating-panel: 900;
+  }

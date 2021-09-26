@@ -9,7 +9,8 @@
     "f2elint-scan": "f2elint scan",
     "f2elint-fix": "f2elint fix",
     "test:rem": "yarn workspace @melody-core/rem run test:json",
-    "docs": "yarn workspace @melody-core/rem run storybook"
+    "docs": "yarn workspace @melody-core/rem run storybook",
+    "publish:ram": "yarn workspace @melody-core/ram run publish"
   },
   "private": true,
   "devDependencies": { 

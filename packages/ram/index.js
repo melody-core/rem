@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-require-imports */
 const path = require('path');
 const fs = require('fs');
 const { Command } = require('commander');
@@ -62,8 +64,8 @@ class Main {
       spinit.stop();
       process.exit();
     }
-    console.log(chalk.blueBright('👩‍🎤 拉姆拉姆提示您: 组件初始化成功啦，请在此之上开发吧~'));
     spinit.stop();
+    console.log(chalk.blueBright('👩‍🎤 拉姆拉姆提示您: 组件初始化成功啦，请在此之上开发吧~'));
   }
   start() {
     // 版本
