@@ -10,8 +10,8 @@ import React from 'react';
         const { getByTestId } = render(<Tag data-testid="Tag" />);
     
         expect(getByTestId('Tag')).toMatchInlineSnapshot(`
-          <div
-            class="wrap"
+          <span
+            class="rem-tag rem-tag-primary rem-tag-fill"
             data-testid="Tag"
           />
         `);
@@ -21,7 +21,7 @@ import React from 'react';
         const onClick = jest.fn();
     
         const { getByTestId } = render(
-          <Tag data-testid="button" onClick={onClick} />,
+          <Tag data-testid="Tag" onClick={onClick} />,
         );
     
         fireEvent.click(getByTestId('Tag'));

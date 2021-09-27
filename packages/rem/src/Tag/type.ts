@@ -1,18 +1,7 @@
-import { ForwardedRef } from "react";
+import { ReactChild, ReactChildren } from "react";
 
-export enum TagTypes {
-    default = 'default',
-    primary = 'primary',
-    success = 'success',
-    warning = 'warning',
-    danger = 'danger'
-}
-
-export enum SizeTypes {
-    large = 'large',
-    medium = 'medium',
-    small = 'small'
-}
+export type TagTypes = 'primary' | 'success' | 'warning' | 'danger'
+export type SizeTypes = 'large' |'medium' | 'small';
 
 export interface TagProps{
     size?: SizeTypes,
@@ -24,4 +13,5 @@ export interface TagProps{
     closeable?: boolean,
     type?: TagTypes,
     className?: string,
+    children?: ReactChild | ReactChildren,
 }

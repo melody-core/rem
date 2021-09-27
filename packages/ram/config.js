@@ -116,4 +116,8 @@ module.exports = [
   {
     path: './type.ts',
     code: `export interface {{ComponentName}}Props{}`,
+  },  {
+    path: './README.md',
+    code: `#{{ComponentName}}
+    请参照 Tag 组件进行编写`,
   },];

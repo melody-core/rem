@@ -1,18 +1,27 @@
-import { Meta, Preview, Story, Props } from '@storybook/addon-docs/blocks';
-    import Tag from './Tag';
-    
-    <Meta title='Tag' component={Tag} />
-    
-    # Tag
-    
-    With `MDX` we can define a story for `Tag` right in the middle of our
-    markdown documentation.
-    
-    <Preview>
-          <Tag>Example</Tag>
-    </Preview>
-    
-    ## Props
-    
-    <Props of={Tag} />
-    
+import { Meta, Preview, Story, Props} from '@storybook/addon-docs';
+import Tag from './Tag';
+
+<Meta title='Tag' component={Tag} />
+
+# Tag
+
+标签
+
+<Preview>
+      <Tag>normal</Tag>
+      <Tag size="small">small</Tag>
+      <Tag size="large">large</Tag>
+      <Tag type="primary">primary</Tag>
+      <Tag type="success">success</Tag>
+      <Tag type="warning">warning</Tag>
+      <Tag type="danger">danger</Tag>
+      <Tag type="primary" size="small">蕾姆蕾姆</Tag>
+      <Tag className="aquamarine">自定义的classname</Tag>
+      <Tag className="bg-aquamarine" size="small">自定义的classname</Tag>
+</Preview>
+
+> 除开下面的属性，您可以给Tag添加任意元素能识别的属性，包括任意事件。
+
+## Props
+
+<Props of={Tag} />

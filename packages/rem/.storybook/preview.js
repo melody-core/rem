@@ -5,6 +5,8 @@ import { withTests } from '@storybook/addon-jest';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 
 import results from '../src/.jest-test-results.json';
+import './../src/global/global.scss';
+import './demo.css';
 
 
 /* Add A11y panel */
