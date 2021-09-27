@@ -4537,19 +4537,7 @@
   dependencies:
     "@types/yargs-parser" "*"
 
-"@typescript-eslint/eslint-plugin@^3.0.0":
-  version "3.10.1"
-  resolved "https://registry.npmmirror.com/@typescript-eslint/eslint-plugin/download/@typescript-eslint/eslint-plugin-3.10.1.tgz?cache=0&sync_timestamp=1632333840782&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40typescript-eslint%2Feslint-plugin%2Fdownload%2F%40typescript-eslint%2Feslint-plugin-3.10.1.tgz#7e061338a1383f59edc204c605899f93dc2e2c8f"
-  integrity sha1-fgYTOKE4P1ntwgTGBYmfk9wuLI8=
-  dependencies:
-    "@typescript-eslint/experimental-utils" "3.10.1"
-    debug "^4.1.1"
-    functional-red-black-tree "^1.0.1"
-    regexpp "^3.0.0"
-    semver "^7.3.2"
-    tsutils "^3.17.1"
-
-"@typescript-eslint/eslint-plugin@^4.11.0", "@typescript-eslint/eslint-plugin@^4.5.0":
+"@typescript-eslint/eslint-plugin@^3.0.0", "@typescript-eslint/eslint-plugin@^4.11.0", "@typescript-eslint/eslint-plugin@^4.31.1", "@typescript-eslint/eslint-plugin@^4.5.0":
   version "4.31.2"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/eslint-plugin/-/eslint-plugin-4.31.2.tgz#9f41efaee32cdab7ace94b15bd19b756dd099b0a"
   integrity sha512-w63SCQ4bIwWN/+3FxzpnWrDjQRXVEGiTt9tJTRptRXeFvdZc/wLiz3FQUwNQ2CVoRGI6KUWMNUj/pk63noUfcA==
