@@ -12,7 +12,9 @@
     "f2elint-fix": "f2elint fix",
     "test:rem": "yarn workspace @melody-core/rem run test:json",
     "docs": "yarn workspace @melody-core/rem run storybook",
-    "publish:ram": "yarn workspace @melody-core/ram run publish"
+    "publish:ram": "yarn workspace @melody-core/ram run publish",
+    "predeploy": "yarn docs:build",
+    "deploy": "bash packages/rem/.deploy/deploy_repo.sh"
   },
   "private": true,
   "devDependencies": { 
