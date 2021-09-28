@@ -1,15 +1,14 @@
 .rem-tag {
   display: inline-block;
-  padding: 0 4px;
+  padding: 2px 4px;
   border-radius: 3px;
   border: 0.5px solid var(--rem-border-color);
   background-color: var(--color);
   font-weight: normal;
   white-space: nowrap;
   font-size: var(--rem-font-size-md);
-  line-height: var(--rem-line-height-md);
   background: var(--rem-color-primary);
-  &-primary{
+    &-primary{
     border: 0.5px solid var(--rem-color-primary);
     background: var(--rem-color-success);
     color: var(--rem-color-primary);
@@ -31,15 +30,13 @@
   }
   &-size-xs{
     font-size: var(--rem-font-size-xs);
-    padding: 0px 2px;
+    padding: 1px 2px;
     border-radius: 2px;
-    line-height: var(--rem-line-height-xs);
   }
   &-size-lg{
     font-size: var(--rem-font-size-lg);
-    padding: 0px 6px;
+    padding: 2px 6px;
     border-radius: 4px;
-    line-height: var(--rem-line-height-lg);
   }
   &-plain{
     background: none;
