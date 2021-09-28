@@ -6,6 +6,7 @@ npm-debug.log*
 packages/*/lib
 packages/*/coverage
 packages/*/node_modules
+packages/rem/public
 site/dist
 .vscode/
 .idea/

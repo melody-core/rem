@@ -8,16 +8,17 @@ import results from '../src/.jest-test-results.json';
 import './../src/global/global.scss';
 import './demo.css';
 
-
 /* Add A11y panel */
 addDecorator(withA11y);
 
 /* Enable README for all stories */
 addDecorator(addReadme);
 
-addDecorator(withTests({
-  results,
-}));
+addDecorator(
+  withTests({
+    results,
+  }),
+);
 
 /* General options for storybook */
 addParameters({
@@ -25,7 +26,7 @@ addParameters({
   readme: {
     codeTheme: 'github',
     StoryPreview: ({ children }) => children,
-  }
+  },
 });
 
 // https://storybook.js.org/docs/react/essentials/toolbars-and-globals#advanced-usage
@@ -52,5 +53,5 @@ export const parameters = {
   viewport: {
     viewports: INITIAL_VIEWPORTS,
     defaultViewport: 'iphone6',
-  }
-}
+  },
+};

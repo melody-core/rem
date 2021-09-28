@@ -1,3 +1,3 @@
-import "./global";
+import './global';
 
-export { default as Button } from './Button';
+export { default as Tag } from './Tag';

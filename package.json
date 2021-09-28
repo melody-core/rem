@@ -4,6 +4,8 @@
   "description": "最好的react-mobile-UI库!",
   "scripts": {
     "build": "yarn workspaces run build",
+    "build:rem": "yarn workspace @melody-core/rem run build",
+    "docs:build": "yarn workspace @melody-core/rem run build:storybook",
     "info": "yarn workspaces info",
     "lint:fix": "eslint ./ --fix",
     "f2elint-scan": "f2elint scan",

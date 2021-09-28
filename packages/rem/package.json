@@ -31,7 +31,8 @@
     "build:storybook": "build-storybook -o public/",
     "predeploy": "npm run build:storybook",
     "f2elint-scan": "f2elint scan",
-    "f2elint-fix": "f2elint fix"
+    "f2elint-fix": "f2elint fix",
+    "deploy": "bash .deploy/deploy.sh"
   },
   "peerDependencies": {
     "prop-types": "^15.7.2",
