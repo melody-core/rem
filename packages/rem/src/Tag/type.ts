@@ -12,6 +12,4 @@ export interface TagProps{
     textColor?: string,
     closeable?: boolean,
     type?: TagTypes,
-    className?: string,
-    children?: ReactChild | ReactChildren,
 }

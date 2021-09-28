@@ -4,18 +4,16 @@ import PropTypes from 'prop-types';
 import { TagProps} from './type';
 
 import './Tag.scss';
-import { NativeProps } from '../global/type';
 
 const classPrefix = `rem-tag`;
 
 export const Tag =  React.forwardRef<
-  HTMLDivElement, 
+  HTMLSpanElement, 
   DetailedHTMLProps<
     HTMLAttributes<HTMLSpanElement>,
     HTMLSpanElement
   > & 
-  TagProps & 
-  NativeProps
+  TagProps
 >(({
   className = '',
   size = 'medium',
