@@ -6,7 +6,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "ram": "node ./index.js",
-        "publish": "npm publish --registry=https://registry.npmjs.org/"
+        "publish": "npm publish --registry=https://registry.npmjs.org/",
+        "build": "echo \"-build-ram-\""
     },
     "bin": {
         "ram": "./index.js"

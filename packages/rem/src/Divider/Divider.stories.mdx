@@ -1,0 +1,27 @@
+import { Meta, Preview, Story, Props } from '@storybook/addon-docs';
+import Divider from './Divider';
+
+<Meta title="Divider" component={Divider} />
+
+# Divider
+
+标签
+
+<Preview >
+      <div>
+            <h3>0.5像素</h3>
+            <Divider hairline>分割线</Divider>
+            <h3>位置</h3>
+            <Divider>分割线</Divider>
+            <Divider contentPosition='left'>left</Divider>
+            <Divider contentPosition='center'>center</Divider>
+            <Divider contentPosition='right'>right</Divider>
+            <h3>虚线</h3>
+            <Divider dashed>分割线</Divider>
+      </div>
+</Preview>
+
+## props
+> 除开下面的属性，您可以给 Divider 添加任意元素能识别的属性，包括className,style,data-xx及任意事件等。
+
+<Props of={Divider} />
