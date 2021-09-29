@@ -5,7 +5,8 @@
 react 移动端组件库!
 
 ## 文档
-[组件库](http://localhost:6006/?path=/story/divider--basic)
+[组件库](https://melody-core.github.io/rem/?path=/docs/divider--basic)
+
 [简介](https://melody-core.github.io/melody-core/rem/#%E5%AE%89%E8%A3%85)
 
 ## 开发

@@ -5,7 +5,8 @@
 React mobile component library!
 
 ## docs
-[component-doc](http://localhost:6006/?path=/story/divider--basic)
+[component-doc](https://melody-core.github.io/rem/?path=/docs/divider--basic)
+
 [desc](https://melody-core.github.io/melody-core/rem/#%E5%AE%89%E8%A3%85)
 
 ## Dev
