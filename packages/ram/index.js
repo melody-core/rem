@@ -17,10 +17,10 @@ const ComponentReg = /{{ComponentName}}/g;
 const program = new Command();
 
 class Main {
-  async check() {
+  async check(noVid) {
     console.log(chalk.blueBright('👩‍🎤 拉姆为您效劳(*☻-☻*)'));
     const targetProSrcPath = process.cwd();
-    if (!pathReg.test(targetProSrcPath)) {
+    if (!pathReg.test(targetProSrcPath && !noVid)) {
       console.log(chalk.yellow('👩‍🎤 拉姆拉姆提示您: 请在组件项目的src目录下运行ram命令！'));
       process.exit();
     }
@@ -74,10 +74,13 @@ class Main {
     // 注册命令i
     program
       .command('init')
-      .description('初始化一个组件～')
-      .action(async () => {
+      .alias('i')
+      .option('-c, --com', '不进行目录验证')
+      .description('初始化一个组件,加--com不验证目录')
+      .action(async (options) => {
         // todosth
-        await this.check();
+        console.log(options)
+        await this.check(options && options.com);
       });
 
     // 解析环境参数，不要删除
