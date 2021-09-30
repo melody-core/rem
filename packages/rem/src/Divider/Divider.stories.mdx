@@ -5,7 +5,7 @@ import Divider from './Divider';
 
 # Divider
 
-标签
+分割线
 
 <Preview >
       <div>
@@ -24,4 +24,10 @@ import Divider from './Divider';
 ## props
 > 除开下面的属性，您可以给 Divider 添加任意元素能识别的属性，包括className,style,data-xx及任意事件等。
 
-<Props of={Divider} />
+| propName  | propType | defaultValue | isRequired | desc |
+| --------- | -------- | ------------ | ---------- | -----|
+| dashed | boolean | false |  no | 	是否使用虚线 |
+| hairline | boolean |	true | no |	是否使用 0.5px 线	|
+| contentPosition	|'left', 'right', 'center' | 	'center' |  no | 内容位置 |
+| className | string   |              | no         |  - |
+| style | object   |      -      | no         | - |
