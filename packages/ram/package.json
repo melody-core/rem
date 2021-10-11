@@ -1,12 +1,11 @@
 {
     "name": "@melody-core/ram",
-    "version": "1.0.6",
+    "version": "1.0.9",
     "description": "👩‍🎤 拉姆，组件开发小助手!",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "ram": "node ./index.js",
-        "publish": "npm publish --registry=https://registry.npmjs.org/",
         "build": "echo \"-build-ram-\""
     },
     "bin": {

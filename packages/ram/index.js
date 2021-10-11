@@ -21,7 +21,7 @@ class Main {
     console.log(chalk.blueBright('👩‍🎤 拉姆为您效劳(*☻-☻*)'));
     const targetProSrcPath = process.cwd();
     if (!pathReg.test(targetProSrcPath && !noVid)) {
-      console.log(chalk.yellow('👩‍🎤 拉姆拉姆提示您: 请在组件项目的src目录下运行ram命令！'));
+      console.log(chalk.yellow('👩‍🎤 拉姆拉姆提示您: 请在组件项目的src目录下运行ram命令！如果您是windows环境，请在此命令后添加参数 --com'));
       process.exit();
     }
     const inputres = await inquirer.prompt([
